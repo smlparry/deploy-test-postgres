@@ -80,6 +80,6 @@ test:
 #
 production:
   <<: *default
-  database: deploy-test-postgres_production
-  username: deploy-test-postgres
-  password: <%= ENV['DEPLOY-TEST-POSTGRES_DATABASE_PASSWORD'] %>
+  database: deploy_test
+  username: rails
+  password: EWmGQc7m2H
